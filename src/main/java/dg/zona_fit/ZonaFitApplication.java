@@ -113,7 +113,6 @@ public class ZonaFitApplication implements CommandLineRunner {
 				}
 			}
 			case 5 -> {
-				logger.info("Este es una prueba de github");
 				logger.info("--- Eliminar Cliente ---" + nl);
 				logger.info("Id Cliente: ");
 				var idCliente = Integer.parseInt(consola.nextLine());
